@@ -11,7 +11,7 @@ function About(props) {
             height: 1200, 
           }}
         >
-          <h1 style={{textAlign:'center', height:200, paddingTop:200}}>{props.title}</h1>
+          <h1 style={{textAlign:'center', height:200, paddingTop:450}}>{props.title}</h1>
           <p style={{textAlign:'center'}}> {props.body}</p>
         </div>
         <section id="about"    style={{
