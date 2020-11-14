@@ -24,7 +24,7 @@ class App extends Component {
             <Col md={8}>
               <Portfolio
                 title="Project1"
-                body="this is about project 1"
+                body="Project 1"
                 link1="google.com"
                 linkName1="Google"
               />
@@ -32,7 +32,7 @@ class App extends Component {
             <Col>
               <Portfolio
                 title="Project2"
-                body="this is about project 2"
+                body="Project 2"
                 link2="yahoo.com"
                 linkName2="Yahoo"
               />
