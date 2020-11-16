@@ -7,6 +7,7 @@ import ContactUs from "./components/contact/";
 import Footer from "./components/footer/";
 import About from "./components/about";
 import { Container, Col, Row } from "react-bootstrap";
+import Grid from "@material-ui/core/Grid";
 
 class App extends Component {
   render() {
@@ -19,26 +20,26 @@ class App extends Component {
           image="https://wallpaperaccess.com/full/2995593.jpg"
         />
         <Resume image="https://i.pinimg.com/originals/4c/9f/f1/4c9ff1f84d726f966103ff802972e9ae.gif" />
-        <Container fluid="md">
-          <Row>
-            <Col md={8}>
-              <Portfolio
-                title="Project1"
-                body="Project 1"
-                link1="google.com"
-                linkName1="Google"
+        <Grid container fluid="md">
+            <Grid item>
+              <Portfolio id='portfolio'
+                cardTitle="Project1"
+                cardBody="Project 1"
               />
-            </Col>
-            <Col>
+            </Grid>
+            <Grid item>
               <Portfolio
-                title="Project2"
-                body="Project 2"
-                link2="yahoo.com"
-                linkName2="Yahoo"
+                cardTitle="Project2"
+                cardBody="Project 2"
               />
-            </Col>
-          </Row>
-        </Container>
+            </Grid>
+            <Grid item>
+              <Portfolio
+                cardTitle="Project2"
+                cardBody="Project 2"
+              />
+            </Grid>
+        </Grid>
         <ContactUs image="https://i.pinimg.com/originals/b2/b0/2f/b2b02f3b94075334edb07f8e6f8c0d11.gif"/>
         <Footer />
       </div>

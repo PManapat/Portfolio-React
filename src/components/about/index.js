@@ -2,7 +2,10 @@ import React from "react";
 
 function About(props) {
   return (
-      <div>
+      <div style={{
+        marginTop: -24,
+      }}
+>
         <div
           style={{
             backgroundImage: `url(${props.image})`,
