@@ -21,12 +21,20 @@ function Resume(props) {
         <div className="nine columns main-col">
           <div className="row item">
             <div className="twelve columns">
-              <h3>Rutgers Bootcamp</h3>
+              <h3>Rutgers, New Brunswick</h3>
               <p className="info">
                 FullStack Web Developer <span>•</span>{" "}
                 <em className="date">August 2020</em>
               </p>
-              <p>From Zero to Hero in 6 months</p>
+            </div>
+          </div>{" "}
+          <div className="row item">
+            <div className="twelve columns">
+              <h3>CUNY John Jay</h3>
+              <p className="info">
+                Criminal Justice <span>•</span>{" "}
+                <em className="date">December 2012</em>
+              </p>
             </div>
           </div>{" "}
           {/* item end */}
@@ -55,15 +63,22 @@ function Resume(props) {
         <div className="nine columns">
           <h3>Front End</h3>
           <div>
-            <div /> HTML - CSS - JAVASCRIPT - JQUERY - BOOTSTRAP - API & AJAX
+            <div /> HTML5 - CSS - JAVASCRIPT - JQUERY - BOOTSTRAP - REST API - AJAX
           </div>
         </div>{" "}
         <div className="nine columns ">
           <h3>Back End</h3>
           <div>
             <div />
-            REACTJS - NODEJS - INDEXDB - MONGODB - MYSQL - GITHUB
+            REACTJS - NODEJS - EXPRESSJS - SEQUELIZE - INDEXDB - MONGODB - MYSQL - PHP  
           </div>
+        <div className="nine columns ">
+          <h3>Others</h3>
+          <div>
+            <div />
+            GITHUB - TEAMWORK
+          </div>
+        </div>
         </div>
         {/* main-col end */}
       </div>{" "}

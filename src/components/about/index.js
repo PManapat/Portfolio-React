@@ -20,15 +20,16 @@ function About(props) {
         <section id="about"    style={{
             backgroundColor: 'rgba(0, 0, 0, 0.90)',
             color: "whitesmoke",
-            height: 500,
+            height: 700,
+            paddingTop: 50,
           }}>
-      <div className="row">
-        <div className="three columns">
-          <img className="profile-pic" src="images/profilepic.jpeg" alt="" />
+      <div className="row" style={{marginLeft: 60, marginRight: 60,}}>
+        <div>
+          <img className="profile-pic" src="https://media-exp1.licdn.com/dms/image/C4E03AQG1qYHs2xURiA/profile-displayphoto-shrink_400_400/0?e=1611187200&v=beta&t=DW3ZFFbfp4yZQSllY2mS2T8-Ehs_aWccda0NAOLuCKQ" alt="Phillip" width="250" height="250"/>
         </div>
-        <div className="nine columns main-col">
+        <div>
           <h2>About Me</h2>
-          <p>A foodie who wants to dive into the industry to learn and design aesthetic works of development. Astrayed from the original path carved out, I've choosen to learn the ways of developers. With hobbies of interest in learning, logic, art, and trading.  
+          <p>{props.bio}  
           </p>
           <div className="row">
             <div className="columns contact-details">
@@ -41,7 +42,7 @@ function About(props) {
             </div>
             <div className="columns download">
               <p>
-                <a href="https://drive.google.com/open?id=154WtMp3JMzNE7Y09qsgbWxGfp1e4fdNV" className="button"><i className="fa fa-download" />Resume</a>
+                <a href="https://drive.google.com/file/d/1I0dPQx4pJIdv4qHh9OL5tgm57aUDEp1M/view?usp=sharing" className="button" style={{color: 'white'}}><i className="fa fa-download" />Resume</a>
               </p>
             </div>
           </div> {/* end row */}

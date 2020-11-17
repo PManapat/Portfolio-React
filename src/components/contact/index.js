@@ -17,7 +17,7 @@ function Contact(props){
           <div className="ten columns">
             <p className="lead"> Goodbye World.  <p>If you would like to contact me, collaborate
                         or just say 'Hi! </p>
-                        <a class="link" href="mailto:philmanapat@gmail.com">philmanapat@gmail.com</a>
+                        <a class="link" href="mailto:philmanapat@gmail.com" style={{color: 'white'}}>philmanapat@gmail.com</a>
             </p>
           </div>
         </div>
