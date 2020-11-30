@@ -7,14 +7,14 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import Modal from "../modal";
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
   root: {
-      marginLeft: 50,
+      marginLeft: 40,
       marginTop: 50,
       marginBottom: 50,
-      marginRight: 50,
+      marginRight: 10,
       textAlign: 'center',
     alignItems: 'center',
     justifyContent: 'center',
@@ -50,7 +50,8 @@ export default function ImgMediaCard(props) {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Modal modalTitle="Project One" modalBody="Project 1 body text"/>
+            <Button href={props.DemoBtn}> Demo </Button> 
+            <Button href={props.CodeBtn}> Code </Button>
           </CardActions>
         </Card>
       </Grid>

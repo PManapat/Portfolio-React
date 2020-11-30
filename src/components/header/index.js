@@ -27,10 +27,10 @@ export default function CenteredTabs() {
         textColor="primary"
         centered
       >
-        <Tab label="Home" />
-        <Tab label="Resume" />
-        <Tab label="Portfolio"/>
-        <Tab label="Contact" />
+        <Tab label="Home" href='#home'/>
+        <Tab label="Resume" href='#resume'/>
+        <Tab label="Portfolio" href='#portfolio'/>
+        <Tab label="Contact" href='#contact'/>
       </Tabs>
     </Paper>
   );
