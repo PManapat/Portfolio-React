@@ -18,8 +18,10 @@ const useStyles = makeStyles({
       textAlign: 'center',
     alignItems: 'center',
     justifyContent: 'center',
-    minWidth: 100,
-    minHeight: 100,
+    minWidth: 20,
+    minHeight: 20,
+    maxHeight: 320,
+    maxWidth: 260,
   },
 });
 
@@ -34,9 +36,9 @@ export default function ImgMediaCard(props) {
             <CardMedia
               component="img"
               alt={props.cardImgAlt}
-              height="140"
               image={props.cardImg}
               title={props.cardImgTitle}
+              style={{maxWidth: 260}}
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">

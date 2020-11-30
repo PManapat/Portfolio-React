@@ -26,7 +26,7 @@ class App extends Component {
               <Portfolio id='portfolio'
                 cardTitle="On Common Ground"
                 cardBody="Project 1"
-                cardImg="../public/images/OGC.png"
+                cardImg="../images/OCG.png"
                 cardImgAlt="Online Mediations"
               />
             </Grid>
@@ -34,7 +34,7 @@ class App extends Component {
               <Portfolio
                 cardTitle="Portfolio Builder"
                 cardBody="Project 2"
-                cardImg="../../public/images/PB.png"
+                cardImg="../images/PB.png"
                 cardImgAlt="Portfolio Builder"
               />
             </Grid>
@@ -42,7 +42,7 @@ class App extends Component {
               <Portfolio
                 cardTitle="Get Med"
                 cardBody="Project 2"
-                cardImg="../public/images/GM.png"
+                cardImg="../images/GM.png"
                 cardImgAlt="Get Med"
               />
             </Grid>
@@ -50,7 +50,7 @@ class App extends Component {
               <Portfolio
                 cardTitle="Music Venue Planner"
                 cardBody="Project 2"
-                cardImg="../public/images/MVP.png"
+                cardImg="../images/MVP.png"
                 cardImgAlt="Music Venue Planner"
               />
             </Grid>
