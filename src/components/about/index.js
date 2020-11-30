@@ -11,7 +11,7 @@ function About(props) {
             backgroundImage: `url(${props.image})`,
             backgroundSize: 'cover',
             color: "whitesmoke",
-            height: 1200, 
+            height: 1000, 
           }}
         >
           <h1 style={{textAlign:'center', height:200, paddingTop:450}}>{props.title}</h1>
@@ -25,7 +25,7 @@ function About(props) {
           }}>
       <div className="row" style={{marginLeft: 60, marginRight: 60,}}>
         <div>
-          <img className="profile-pic" src="https://media-exp1.licdn.com/dms/image/C4E03AQG1qYHs2xURiA/profile-displayphoto-shrink_400_400/0?e=1611187200&v=beta&t=DW3ZFFbfp4yZQSllY2mS2T8-Ehs_aWccda0NAOLuCKQ" alt="Phillip" width="250" height="250"/>
+          <img className="profile-pic" style={{border:'1, solid'}} src="https://media-exp1.licdn.com/dms/image/C4E03AQEup7DQ2RWEcQ/profile-displayphoto-shrink_400_400/0/1606768825467?e=1612396800&v=beta&t=aLe9LEN7R84lRH_XpsvTMAtJHIjtuS-OYlZwA6neTR8" alt="Phillip" width="auto" height="250"/>
         </div>
         <div>
           <h2>About Me</h2>

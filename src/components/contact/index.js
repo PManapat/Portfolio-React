@@ -7,8 +7,8 @@ function Contact(props){
             backgroundAttachment: 'fixed',
             backgroundSize: 'cover',
             color: "whitesmoke",
-            height: 400,
-            paddingTop: 100,
+            height: 360,
+            paddingTop: 80,
           }}>
         <div className="row section-head">
           <div className="two columns header-col">

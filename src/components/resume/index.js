@@ -10,8 +10,8 @@ function Resume(props) {
         backgroundColor: 'white',
         backgroundAttachment: "fixed",
         color: "black",
-        paddingTop: 100,
-        height: 500,
+        paddingTop: 60,
+        height: 300,
       }}>
         <div className="three columns header-col">
           <h1>
