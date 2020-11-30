@@ -4,8 +4,8 @@ function Footer(props){
     return (
         <footer   style={{
             borderTop: '1px solid' ,
-            height: 250,
-            paddingTop: 20,
+            height: 50,
+            paddingTop: 10,
           }}>
         <div className="row">
           <div className="twelve columns">
