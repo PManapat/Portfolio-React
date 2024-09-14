@@ -68,7 +68,7 @@ function About(props) {
               <div className="columns download">
                 <p>
                   <a
-                    href="https://drive.google.com/file/d/1I0dPQx4pJIdv4qHh9OL5tgm57aUDEp1M/view?usp=sharing"
+                    href="https://docs.google.com/document/d/1H0RR_j3Ih74hp_9-pZ2b1xWKB3GE3DFU9yCVPxm6rI8/pub"
                     className="button"
                     style={{ color: 'white' }}
                   >
