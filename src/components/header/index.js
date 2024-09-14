@@ -1,17 +1,20 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
+import { styled } from '@mui/material/styles';
+import { Tab, Tabs, Paper } from '@mui/material';
 
-const useStyles = makeStyles({
-  root: {
-      backgroundColor: 'white',
-    },
+const StyledTabs = styled(Tabs)({
+  backgroundColor: 'black',
+  color: 'white',
+});
+
+const StyledTab = styled(Tab)({
+  color: 'white',
+  '&.Mui-selected': {
+    color: 'white',
+  },
 });
 
 export default function CenteredTabs() {
-  const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -19,19 +22,17 @@ export default function CenteredTabs() {
   };
 
   return (
-    <Paper className={classes.root}>
-      <Tabs style={{paddingLeft:10, paddingRight:10}}
+    <Paper>
+      <StyledTabs
         value={value}
         onChange={handleChange}
-        indicatorColor="primary"
-        textColor="primary"
         centered
       >
-        <Tab label="Home" href='#home'/>
-        <Tab label="Resume" href='#resume'/>
-        <Tab label="Portfolio" href='#portfolio'/>
-        <Tab label="Contact" href='#contact'/>
-      </Tabs>
+        <StyledTab label="Home" href='#home' />
+        <StyledTab label="Resume" href='#about' />
+        <StyledTab label="Portfolio" href='#portfolio' />
+        <StyledTab label="Contact" href='#contact' />
+      </StyledTabs>
     </Paper>
   );
 }

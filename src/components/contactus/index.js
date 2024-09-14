@@ -7,7 +7,7 @@ function Contact(props){
             backgroundAttachment: 'fixed',
             backgroundSize: 'cover',
             color: "whitesmoke",
-            height: 360,
+            height: 260,
             paddingTop: 80,
           }}>
         <div className="row section-head">
@@ -15,9 +15,8 @@ function Contact(props){
             <h1>Get In Touch.</h1>
           </div>
           <div className="ten columns">
-            <p className="lead"> Goodbye World.  <p>If you would like to contact me, collaborate
-                        or just say 'Hi! </p>
-                        <a class="link" href="mailto:philmanapat@gmail.com" style={{color: 'white'}}>philmanapat@gmail.com</a>
+            <p className="lead"><p>If you would like to contact me or collaborate</p>
+                        <a class="link" href="mailto:philmanapat@gmail.com" style={{color: 'white'}}>Contact Me</a>
             </p>
           </div>
         </div>

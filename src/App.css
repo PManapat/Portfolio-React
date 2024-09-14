@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(16x + 2vmin);
   color: white;
 }
 
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.about-title {
+  font-size: 2.5rem;  /* Adjust as needed for title size */
+  font-weight: bold;
+}
+
+.about-body {
+  font-size: 1.5rem;  /* Adjust as needed for body size */
+  line-height: 1.6;
 }

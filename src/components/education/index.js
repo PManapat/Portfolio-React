@@ -7,11 +7,11 @@ function Resume(props) {
       ----------------------------------------------- */}
       <div className="row education"  id="resume"
       style={{
-        backgroundColor: 'white',
+        backgroundImage: `url(${props.image})`,
         backgroundAttachment: "fixed",
-        color: "black",
+        color: "white",
         paddingTop: 60,
-        height: 300,
+        height: 400,
       }}>
         <div className="three columns header-col">
           <h1>
@@ -42,47 +42,6 @@ function Resume(props) {
         {/* main-col end */}
       </div>{" "}
       {/* End Education */}
-      {/* Work
-        
-        
-{/* Skills ----------------------------------------------- */}
-      <div className="row skill"    id="resume"
-      style={{
-        backgroundImage: `url(${props.image})`,
-        backgroundAttachment: 'fixed',
-        backgroundSize: 'cover',
-        color: "whitesmoke",
-        paddingTop: 100,
-        height: 500,
-      }}>
-        <div className="three columns header-col">
-          <h1>
-            <span>Skills</span>
-          </h1>
-        </div>
-        <div className="nine columns">
-          <h3>Front End</h3>
-          <div>
-            <div /> HTML5 - CSS - JAVASCRIPT - JQUERY - BOOTSTRAP - REST API - AJAX
-          </div>
-        </div>{" "}
-        <div className="nine columns ">
-          <h3>Back End</h3>
-          <div>
-            <div />
-            REACTJS - NODEJS - EXPRESSJS - SEQUELIZE - INDEXDB - MONGODB - MYSQL - PHP  
-          </div>
-        <div className="nine columns ">
-          <h3>Others</h3>
-          <div>
-            <div />
-            GITHUB - TEAMWORK
-          </div>
-        </div>
-        </div>
-        {/* main-col end */}
-      </div>{" "}
-      {/* End skills */}
     </section>
   );
 }
