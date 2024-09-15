@@ -17,7 +17,7 @@ class App extends Component {
           id="resume"
           title="Phillip Manapat"
           body="Full Stack Web Developer"
-          image="https://img.freepik.com/free-photo/black-square-wallpaper-with-blue-light_1123-454.jpg?t=st=1726277058~exp=1726280658~hmac=e2d9987581515849209b7509a884b76077ede8ec9a6831ff6cb1618d8ca1feef&w=996"
+          image="https://images.pexels.com/photos/1422501/pexels-photo-1422501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           bio={
             <>
               Your friendly neighborhood software coder, Javascript engineer and API developer. 
@@ -28,7 +28,7 @@ class App extends Component {
             </>
           } />
         <Resume
-          image="https://img.freepik.com/free-photo/black-square-wallpaper-with-blue-light_1123-454.jpg?t=st=1726277058~exp=1726280658~hmac=e2d9987581515849209b7509a884b76077ede8ec9a6831ff6cb1618d8ca1feef&w=996"
+          image="https://images.pexels.com/photos/1422501/pexels-photo-1422501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         />
         <div id='portfolio' style={{
             backgroundColor: 'black', // Set the background to black
@@ -96,7 +96,7 @@ class App extends Component {
 
         <ContactUs
           id='contact'
-          image="https://img.freepik.com/free-photo/black-square-wallpaper-with-blue-light_1123-454.jpg?t=st=1726277058~exp=1726280658~hmac=e2d9987581515849209b7509a884b76077ede8ec9a6831ff6cb1618d8ca1feef&w=996"
+          image="https://images.pexels.com/photos/1422501/pexels-photo-1422501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         />
         <Footer />
       </div>
