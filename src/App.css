@@ -54,6 +54,8 @@ h2 { font-size: clamp(32px, 3.3vw, 45px); line-height: 1.2; font-weight: 650; le
 .resume-link { margin-top: 26px; border-bottom: 1px solid #536d96; }
 .about-copy p { font-size: 14px; color: #aebbd0; line-height: 1.9; margin-bottom: 19px; }
 .about-copy .large-copy { font-size: 23px; color: #e5edfc; line-height: 1.55; letter-spacing: -.4px; }
+.company-link { color: #8db6ff; font-weight: 700; text-decoration: underline; text-underline-offset: 4px; text-decoration-color: #536d96; }
+.company-link:hover { color: #c5daff; text-decoration-color: currentColor; }
 .interest-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
 .interest-tags span { padding: 8px 12px; border: 1px solid #2c3a55; border-radius: 4px; font-size: 10px; color: #bdcdeb; }
 .education-section { display: grid; grid-template-columns: 1fr 1.2fr; gap: 90px; padding-block: 50px 90px; border-top: 1px solid #2c3a55; }
