@@ -1,45 +1,4 @@
-import React from "react";
-import { styled } from '@mui/material/styles';
-import { Card, Button, Typography, CardMedia, CardContent, CardActions, CardActionArea } from '@mui/material';
-import { Grid2 } from '@mui/material';
-
-const useStyles = styled({
-  cardActions: {
-    justifyContent: 'center',
-    marginBottom: '16px', // Add margin bottom here
-  }
-});
-
-export default function ImgMediaCard(props) {
-  const classes = useStyles();
-
-  return (
-    <Grid2 container>
-      <Grid2 item>
-        <Card className={classes.root}>
-          <CardActionArea>
-            <CardMedia
-              component="img"
-              alt={props.cardImgAlt}
-              image={props.cardImg}
-              title={props.cardImgTitle}
-              style={{ maxWidth: 260 }}
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                {props.cardTitle}
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                {props.cardBody}
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          <CardActions style={{ justifyContent: 'center' }}>
-            <Button href={props.DemoBtn}> Demo </Button> 
-            <Button href={props.CodeBtn}> Code </Button>
-          </CardActions>
-        </Card>
-      </Grid2>
-    </Grid2>
-  );
+import React from 'react';
+export default function Portfolio({ project, index }) {
+  return <article className={`project-card project-${index}`}><a className="project-image" href={project.demo} target="_blank" rel="noreferrer" aria-label={`Open ${project.title} demo (new tab)`}><img src={project.image} alt={`${project.title} website preview`} loading="lazy" /><span className="project-open" aria-hidden="true">↗</span></a><div className="project-meta"><p className="eyebrow">{project.category}</p><span className="project-number">0{index + 1}</span></div><h3>{project.title}</h3><p className="project-description">{project.description}</p><div className="project-links"><a href={project.demo} target="_blank" rel="noreferrer">View project ↗<span className="sr-only"> (new tab)</span></a><a href={project.code} target="_blank" rel="noreferrer">Source code ↗<span className="sr-only"> (new tab)</span></a></div></article>;
 }
