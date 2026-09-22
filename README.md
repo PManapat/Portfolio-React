@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Phillip Manapat Portfolio
+
+## Publishing to GitHub Pages
+
+In the GitHub repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. Keep the custom domain set to `phillipmanapat.com`.
+
+Push changes to `master`. The **Deploy React portfolio to GitHub Pages** workflow installs dependencies, runs `npm run build`, and deploys the generated `build` folder. Check the **Actions** tab for deployment progress or errors.
+
+The workflow uses `npm ci --legacy-peer-deps` to accommodate the existing dependency lockfile. Do not publish the repository root with Jekyll: the root contains source code and this README, not the built React app.
+
+`npm start` previews changes locally. `npm run build` only creates production files; it does not publish them. The GitHub Actions workflow handles publishing after a push to `master`.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
